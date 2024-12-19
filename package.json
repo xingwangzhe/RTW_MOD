@@ -3,9 +3,15 @@
   "displayName": "RTW_MOD",
   "description": "",
   "version": "0.0.1",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.96.0"
   },
+  "homepage": "",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/xingwangzhe/RTW_MOD"
+},
   "categories": [
     "Other"
   ],
