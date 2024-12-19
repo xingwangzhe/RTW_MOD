@@ -1,0 +1,8 @@
+{
+    "placeholder": "Please enter a name for the mod wrong",
+    "nonEmptyFolderPrompt": "The current folder is not empty, please enter a new Mod name.",
+    "modProjectCreationFailed": "Failed to create Mod project.",
+    "modNameNotProvided": "No Mod name provided, operation canceled.",
+    "fileCreationFailed": "File creation failed.", 
+    "modProjectCreated": "Mod project creation completed." 
+}

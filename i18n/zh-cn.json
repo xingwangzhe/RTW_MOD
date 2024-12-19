@@ -1,0 +1,8 @@
+{
+    "placeholder": "请输入模组名称",
+    "nonEmptyFolderPrompt": "当前文件夹不为空，请输入新的 Mod 名称",
+    "modProjectCreationFailed": "创建 Mod 项目失败",
+    "modNameNotProvided": "没有输入 Mod 名称，操作已取消。",
+    "fileCreationFailed": "创建文件失败", 
+    "modProjectCreated": "Mod 项目创建完成" 
+}

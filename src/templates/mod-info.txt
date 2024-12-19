@@ -1,0 +1,9 @@
+[mod]
+title:
+description:
+[maps]
+sourceFolder:/source/maps/
+addExtraMapsForPath:true
+[music]
+sourceFolder: /source/music/
+whenUsingUnitsFromThisMod_playExclusively: true
