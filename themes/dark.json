@@ -1,0 +1,32 @@
+{
+  "name": "My Custom Theme",
+  "type": "dark",
+  "colors": {
+  },
+  "tokenColors": [
+    {
+      "settings": {
+        "foreground": "#ffa047"
+      },
+      "scope": [
+        "punctuation.section.ini"
+      ]
+    },
+    {
+      "settings": {
+        "foreground": "#0ba90a"
+      },
+      "scope": [
+        "keyword.other.definition.ini"
+      ]
+    },
+    {
+      "settings": {
+        "foreground": "#0000ff"
+      },
+      "scope": [
+        "string.unquoted.value.ini"
+      ]
+    }
+  ]
+}

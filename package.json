@@ -29,8 +29,24 @@
         "command": "rtw-mod.initmode",
         "title": "RtwMod Init"
       }
+    ],
+    "language":[
+      {
+        "id": "ini",
+        "aliases": ["ini","INI"],
+        "extension": [".ini"],
+        "configuration": "./syntaxes/RustedWarfareIni.tmLanguage.json"
+      }
+    ], 
+    "themes": [
+      {
+        "label": "RTW MOD INI",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      }
     ]
   },
+    
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
