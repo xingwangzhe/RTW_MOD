@@ -1,9 +1,11 @@
 {
   "name": "rtw-mod",
+  "publisher": "xingwangzhe",
   "displayName": "RTW_MOD",
-  "description": "",
-  "version": "0.0.1",
+  "description": "For Rusted Warfare Modding",
+  "version": "0.0.3",
   "license": "MIT",
+  "icon": "images/favicon.ico",
   "engines": {
     "vscode": "^1.96.0"
   },

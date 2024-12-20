@@ -1,12 +1,7 @@
 # 一个Rusted warfare mod的模组脚手架
 
 ## 介绍
-
->图片资源来自
->https://corrodinggames.com/rusted_warfare
->https://img.shields.io/badge
-复制自https://github.com/yvvki/rusted-warfare-vscode/blob/main/README.md
-
+Rusted Warfare是一个即时战略游戏，由Corroding Games开发。
 [![Rusted Warfare](https://corrodinggames.com/images/rw-title.png)](https://corrodinggames.com/rusted_warfare)
 
 [![Website](https://img.shields.io/badge/Website-000)](http://corrodinggames.com/rusted_warfare)
