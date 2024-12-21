@@ -1,0 +1,48 @@
+{
+  "name": "RustedWarfareIni",
+  "scopeName": "source.ini",
+  "fileTypes": ["ini"],
+  "patterns": [
+    {
+      "match": "^\\[(.*?)\\]$",
+      "name": "meta.section.ini",
+      "captures": {
+        "1": {
+          "name": "entity.name.section.ini"
+        }
+      }
+    },
+    {
+      "match": "^(\\w+)\\s*:\\s*(.*)$",
+      "name": "meta.key-value.ini",
+      "captures": {
+        "1": {
+          "name": "keyword.other.definition.ini"
+        },
+        "2": {
+          "name": "value.rtw.ini"
+        }
+      }
+    },
+    {
+      "match": "^(\\w+)\\s*=\\s*(.*)$",
+      "name": "meta.key-value.ini",
+      "captures": {
+        "1": {
+          "name": "keyword.other.definition.ini"
+        },
+        "2": {
+          "name": "value.rtw.ini"
+        }
+      }
+    },
+    {
+      "match": ";.*$",
+      "name": "comment.line.semicolon.ini"
+    },
+    {
+      "match": "^#.*$",
+      "name": "comment.line.number-sign.ini"
+    }
+  ]
+}

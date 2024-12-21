@@ -1,32 +1,74 @@
 {
-  "name": "My Custom Theme",
+  "name": "RustedWarfareIni Color Theme",
   "type": "dark",
   "colors": {
+    "editor.foreground": "#D4D4D4",
+    "editor.background": "#1E1E1E",
+    "editor.selectionBackground": "#264F78",
+    "editor.lineHighlightBackground": "#2A2A2A",
+    "editorCursor.foreground": "#FFFFFF"
   },
   "tokenColors": [
     {
-      "settings": {
-        "foreground": "#ffa047"
-      },
       "scope": [
-        "punctuation.section.ini"
-      ]
+        "meta.section.ini"
+      ],
+      "settings": {
+        "foreground": "#569CD6",
+        "fontStyle": "bold"
+      }
     },
     {
+      "scope": [
+        "entity.name.section.ini"
+      ],
       "settings": {
-        "foreground": "#0ba90a"
-      },
+        "foreground": "#4EC9B0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope":[
+        "entity.name.section.group-title.ini"
+      ],
+      "settings":{
+        "fontStyle":"bold",
+        "foreground":"#0bad00"
+      }
+    },
+    {
       "scope": [
         "keyword.other.definition.ini"
-      ]
+      ],
+      "settings": {
+        "foreground": "#529eff"
+      }
     },
     {
-      "settings": {
-        "foreground": "#0000ff"
-      },
       "scope": [
-        "string.unquoted.value.ini"
-      ]
+        "value.rtw.ini"
+      ],
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.semicolon.ini",
+        "comment.line.number-sign.ini"
+      ],
+      "settings": {
+        "foreground": "#608B4E",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "meta.key-value.ini"
+      ],
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
     }
   ]
 }
